@@ -14,7 +14,7 @@ function App() {
   useEffect(()=>{
     let todoString = localStorage.getItem("todos")
     if(todoString){
-      let todosData = JSON.parse(localStorage.getItem("todos"));
+      let todosData = JSON.parse(localStorage.getItem("todos")); 
       setTodos(todosData);
     }
   },[]);
