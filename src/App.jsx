@@ -82,7 +82,7 @@ function App() {
             <h2 className="text-4xl max-[639px]:text-3xl tracking-wider">TODO APP</h2>
           </div>
           <div className='max-[639px]:flex-col max-[639px]:mx-2 max-[639px]:items-center max-[639px]:mb-3 flex justify-center text-black mb-5'>
-            <input onChange={handleOnChange} type="text" value={todo} className='max-[639px]:w-10/12 w-[500px] rounded-2xl pl-3 sm:w-[400px]'/>
+            <input placeholder='Enter your task here.....' onChange={handleOnChange} type="text" value={todo} className='max-[639px]:w-10/12 w-[500px] rounded-2xl pl-3 sm:w-[400px]'/>
             <button onClick={handleSubmit} className="max-[639px]:ml-0 max-[639px]:text-sm max-[639px]:p-1 max-[639px]:w-5/12 max-[639px]:mt-2 bg-yellow-300 ml-5 p-3 py-1 rounded-2xl font-bold hover:bg-orange-400">Add Todo</button>
           </div>
           <div className="flex justify-center text-center items-center">
