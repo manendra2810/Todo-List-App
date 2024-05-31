@@ -1,4 +1,5 @@
 import React from 'react'
+// import logo_image from '../assets/images/logo-image.jpg';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <div className="header_content"> 
                 <div className="header_logo-container">
                     <div className="header_logo-img-cont">
-                        <img src="../../public/images/logo-image.jpg" alt="Manendra Agnihotri" className="header_logo-img"/>
+                        <img src="public/images/logo-image.jpg" alt="Manendra Agnihotri" className="header_logo-img"/>
                     </div>
                     <span className="header_logo-sub">Manendra Agnihotri</span>
                 </div>
