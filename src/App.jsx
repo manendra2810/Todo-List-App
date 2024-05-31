@@ -101,8 +101,8 @@ function App() {
                   <p className={item.isCompleted ? "line-through text-white ml-4  text-left text-lg max-[639px]:text-sm max-[639px]:ml-2" : " todo text-white ml-4  text-left text-lg max-[639px]:text-sm max-[639px]:ml-2"}>{item.todoItem}</p>
                 </div>
                 <div className="flex text-center items-center">
-                  <button onClick={(e)=>handleEdit(e, item.id)} className="ml-5 p-3 py-1 text-2xl font-bold hover:text-green-500 max-[639px]:ml-1 max-[639px]:text-sm max-[639px]:p-0 max-[639px]:py-0"><FaEdit /></button>
-                  <button onClick={(e)=>handleDelete(e, item.id)} className="ml-5 p-3 py-1 text-3xl font-bold hover:text-red-600 max-[639px]:ml-0 max-[639px]:text-xl max-[639px]:p-0 max-[639px]:py-0"><MdDeleteForever /></button>
+                  <button onClick={(e)=>handleEdit(e, item.id)} className="ml-5 p-3 py-1 text-2xl font-bold hover:text-green-500 max-[639px]:ml-1 max-[639px]:text-lg max-[639px]:p-0 max-[639px]:py-0"><FaEdit /></button>
+                  <button onClick={(e)=>handleDelete(e, item.id)} className="ml-5 p-3 py-1 text-3xl font-bold hover:text-red-600 max-[639px]:ml-2 max-[639px]:text-xl max-[639px]:p-0 max-[639px]:py-0"><MdDeleteForever /></button>
                 </div>
               </div>;
             })
